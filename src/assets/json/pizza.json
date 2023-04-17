@@ -1,0 +1,358 @@
+{
+    "pizza": [
+        {
+            "name": "Farm Fresh Pizza",
+            "category": "Veg",
+            "size": [
+                "Regular",
+                "Medium",
+                "Large"
+            ],
+            "toppings": [
+                {
+                    "name": "Onion",
+                    "price": 60
+                },
+                {
+                    "name": "Red Paprika",
+                    "price": 60
+                },
+                {
+                    "name": "Black Olives",
+                    "price": 60
+                },
+                {
+                    "name": "Corn",
+                    "price": 60
+                },
+                {
+                    "name": "Capsicum",
+                    "price": 60
+                },
+                {
+                    "name": "Tomato",
+                    "price": 60
+                }
+            ],
+            "pizzaprice": [
+                {
+                    "size": "Regular",
+                    "price": 250
+                },
+                {
+                    "size": "Medium",
+                    "price": 400
+                },
+                {
+                    "size": "Large",
+                    "price": 700
+                }
+            ],
+            "description": "Delightful combination of onion, capsicum, tomato & grilled mushroom",
+            "img": "../../../assets/images/pizza/Farmhouse.jpg"
+        },
+        {
+            "name": "Veg Extravaganza",
+            "category": "Veg",
+            "size": [
+                "Regular",
+                "Medium",
+                "Large"
+            ],
+            "toppings": [
+                {
+                    "name": "Onion",
+                    "price": 60
+                },
+                {
+                    "name": "Red Paprika",
+                    "price": 60
+                },
+                {
+                    "name": "Black Olives",
+                    "price": 60
+                },
+                {
+                    "name": "Corn",
+                    "price": 60
+                },
+                {
+                    "name": "Capsicum",
+                    "price": 60
+                },
+                {
+                    "name": "Tomato",
+                    "price": 60
+                }
+            ],
+            "pizzaprice": [
+                {
+                    "size": "Regular",
+                    "price": 250
+                },
+                {
+                    "size": "Medium",
+                    "price": 400
+                },
+                {
+                    "size": "Large",
+                    "price": 700
+                }
+            ],
+            "description": "Black olives, capsicum, onion, grilled mushroom, corn, tomato, jalapeno & extra cheese",
+            "img": "../../../assets/images/pizza/Veg_Extravaganz.jpg"
+        },
+        {
+            "name": "Peppy Paneer",
+            "category": "Veg",
+            "size": [
+                "Regular",
+                "Medium",
+                "Large"
+            ],
+            "toppings": [
+                {
+                    "name": "Onion",
+                    "price": 60
+                },
+                {
+                    "name": "Red Paprika",
+                    "price": 60
+                },
+                {
+                    "name": "Black Olives",
+                    "price": 60
+                },
+                {
+                    "name": "Corn",
+                    "price": 60
+                },
+                {
+                    "name": "Capsicum",
+                    "price": 60
+                },
+                {
+                    "name": "Tomato",
+                    "price": 60
+                }
+            ],
+            "pizzaprice": [
+                {
+                    "size": "Regular",
+                    "price": 250
+                },
+                {
+                    "size": "Medium",
+                    "price": 400
+                },
+                {
+                    "size": "Large",
+                    "price": 700
+                }
+            ],
+            "description": "Flavorful trio of juicy paneer, crisp capsicum with spicy red paprika",
+            "img": "../../../assets/images/pizza/Peppy_Paneer.jpg"
+        },
+        {
+            "name": "Chicken Maximus",
+            "category": "NonVeg",
+            "size": [
+                "Regular",
+                "Medium",
+                "Large"
+            ],
+            "toppings": [
+                {
+                    "name": "Onion",
+                    "price": 60
+                },
+                {
+                    "name": "Red Paprika",
+                    "price": 60
+                },
+                {
+                    "name": "Black Olives",
+                    "price": 60
+                },
+                {
+                    "name": "Corn",
+                    "price": 60
+                },
+                {
+                    "name": "Capsicum",
+                    "price": 60
+                },
+                {
+                    "name": "Tomato",
+                    "price": 60
+                },
+                {
+                    "name": "Pepper Barbecue Chicken",
+                    "price": 75
+                },
+                {
+                    "name": "Chicken Sausage",
+                    "price": 75
+                },
+                {
+                    "name": "Chicken Tikka",
+                    "price": 75
+                },
+                {
+                    "name": "Chicken Pepperoni",
+                    "price": 75
+                }
+            ],
+            "pizzaprice": [
+                {
+                    "size": "Regular",
+                    "price": 250
+                },
+                {
+                    "size": "Medium",
+                    "price": 400
+                },
+                {
+                    "size": "Large",
+                    "price": 700
+                }
+            ],
+            "description": "The classic Italian pizza! Hand tossed thin crust pizza with Italian Sauce, bocconcini cheese and chicken pepperoni. You can add your magic to this evergreen classic with our special ingredient box!",
+            "img": "../../../assets/images/pizza/Chicken.png"
+        },
+        {
+            "name": "Smoked Chicken",
+            "category": "NonVeg",
+            "size": [
+                "Regular",
+                "Medium",
+                "Large"
+            ],
+            "toppings": [
+                {
+                    "name": "Onion",
+                    "price": 60
+                },
+                {
+                    "name": "Red Paprika",
+                    "price": 60
+                },
+                {
+                    "name": "Black Olives",
+                    "price": 60
+                },
+                {
+                    "name": "Corn",
+                    "price": 60
+                },
+                {
+                    "name": "Capsicum",
+                    "price": 60
+                },
+                {
+                    "name": "Tomato",
+                    "price": 60
+                },
+                {
+                    "name": "Pepper Barbecue Chicken",
+                    "price": 75
+                },
+                {
+                    "name": "Chicken Sausage",
+                    "price": 75
+                },
+                {
+                    "name": "Chicken Tikka",
+                    "price": 75
+                },
+                {
+                    "name": "Chicken Pepperoni",
+                    "price": 75
+                }
+            ],
+            "pizzaprice": [
+                {
+                    "size": "Regular",
+                    "price": 250
+                },
+                {
+                    "size": "Medium",
+                    "price": 400
+                },
+                {
+                    "size": "Large",
+                    "price": 700
+                }
+            ],
+            "description": "For the non-veg gourmet lovers! Fall in love with cheese bocconcini pizza with the flavourful chicken salami and evergreen bbq chicken. To top it all, there is the special ingredient box!",
+            "img": "../../../assets/images/pizza/chickensausage.png"
+        },
+        {
+            "name": "Spiced Double Chicken",
+            "category": "NonVeg",
+            "size": [
+                "Regular",
+                "Medium",
+                "Large"
+            ],
+            "toppings": [
+                {
+                    "name": "Onion",
+                    "price": 60
+                },
+                {
+                    "name": "Red Paprika",
+                    "price": 60
+                },
+                {
+                    "name": "Black Olives",
+                    "price": 60
+                },
+                {
+                    "name": "Corn",
+                    "price": 60
+                },
+                {
+                    "name": "Capsicum",
+                    "price": 60
+                },
+                {
+                    "name": "Tomato",
+                    "price": 60
+                },
+                {
+                    "name": "Pepper Barbecue Chicken",
+                    "price": 75
+                },
+                {
+                    "name": "Chicken Sausage",
+                    "price": 75
+                },
+                {
+                    "name": "Chicken Tikka",
+                    "price": 75
+                },
+                {
+                    "name": "Chicken Pepperoni",
+                    "price": 75
+                }
+            ],
+            "pizzaprice": [
+                {
+                    "size": "Regular",
+                    "price": 250
+                },
+                {
+                    "size": "Medium",
+                    "price": 400
+                },
+                {
+                    "size": "Large",
+                    "price": 700
+                }
+            ],
+            "description": "Delightful combination of our spicy duo- Pepper Barbecue Chicken and Peri Peri Chicken for Chicken Lovers.",
+            "img": "../../../assets/images/pizza/PepperBarbeque.jpg"
+        }
+    ]
+}

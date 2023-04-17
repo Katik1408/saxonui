@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="col-4" *ngFor="let pizza of pizzas; let i = index">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" [src]="pizza.img" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">{{pizza.name}}</h5>
+                <p class="card-text">{{pizza.description}}</p>
+                <button type="button" class="btn btn-outline-primary" (click)="openModal(i)">Add +</button>
+            </div>
+        </div>
+    </div>
+</div>

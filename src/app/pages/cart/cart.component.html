@@ -1,0 +1,58 @@
+<div *ngIf="items.length; else elseBlock">
+    <div class="container">
+
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Remove</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of items">
+                    <td>{{item.pizzaName}}</td>
+                    <td><button (click)="increment(item.quantity)"><i class="fa fa-plus"
+                                aria-hidden="true"></i></button> <span class="quant">{{item.quantity}}</span> <button
+                            (click)="decrement(item.quantity)"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                    </td>
+                    <td>{{item.pizzaPrice}}</td>
+                    <td><button class="btn btn-outline-default" (click)="removeItem()"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
+                    </td>
+                </tr>
+            </tbody>
+
+
+        </table>
+
+        <div class="row">
+            <div class="col-6">Total</div>
+            <div class="col-6">{{totalPrice}}</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <button class="btn btn-outline-success" (click)="placeOrder()">Place Order</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<ng-template #elseBlock>
+    <div class="container">
+        <div class="card">
+            <h4 class="card-title">
+                My cart
+            </h4>
+            <div class="center">
+                <img src="../../../assets/images/mtcart.webp" alt="">
+                <h5>Your cart is Empty</h5>
+                <span>We know your Food Cravings.Add your Favorite Meal Now.</span>
+            </div>
+        </div>
+    </div>
+</ng-template>

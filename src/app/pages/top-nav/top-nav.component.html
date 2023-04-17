@@ -1,0 +1,57 @@
+<!-- <ng-progress
+  id="progressBar"
+  [color]="progressBarService.currentColor"
+  [thick]="true"
+></ng-progress> -->
+<nav class="navbar navbar-expand-md navbar-light">
+
+    <div class="head" routerLink="">Saxon Pizza's</div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/franchise">Franchise Enquiry</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/ourstory">Our Story</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/contactus">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <div class="nav-link point" routerLink="/signup">Signup </div>
+            </li>
+            <li class="nav-item">
+                <div class="button1" (click)="login()">Log in</div>
+            </li>
+            <li class="nav-item">
+                <div class="nav-link point" routerLink="/cart">Cart <i class="fa-solid fa-cart-shopping"></i> </div>
+            </li>
+
+        </ul>
+    </div>
+
+
+
+    <div class="btn-group" dropdown>
+        <button id="button-basic" dropdownToggle type="button" class="btn" aria-controls="dropdown-basic"><span
+                class="menubar"><i class="fas fa-bars fa-2x"></i></span>
+        </button>
+        <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu navbar-collapse" role="menu"
+            aria-labelledby="button-basic">
+            <li role="menuitem" class="nav-item"><a class="dropdown-item nav-link" routerLink="">Tools</a></li>
+            <li role="menuitem" class="nav-item"><a class="dropdown-item nav-link" routerLink="/pricing">Pricing</a>
+            </li>
+            <li role="menuitem" class="nav-item"><a class="dropdown-item nav-link" routerLink="/about">About</a></li>
+            <li role="menuitem" class="nav-item"><a class="dropdown-item nav-link" routerLink="/customers">Customer</a>
+            </li>
+            <li role="menuitem" class="nav-item"><a class="dropdown-item button" routerLink="/register">Get Started</a>
+            </li>
+            <li role="menuitem" class="nav-item"><a class="dropdown-item button1" (click)="login()">Log In</a></li>
+        </ul>
+    </div>
+
+</nav>

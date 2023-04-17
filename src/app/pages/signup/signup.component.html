@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 txt">Create a new Account</div>
+    </div>
+    <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+
+        <div class="row spacer">
+            <div class="col-4">Name</div>
+            <div class="col-4"><input class="form-control" formControlName="CustomerName" type="text" /></div>
+        </div>
+        <div class="row spacer">
+            <div class="col-4">EmailID</div>
+            <div class="col-4"><input class="form-control" formControlName="EmailId" type="text" /></div>
+        </div>
+        <div class="row spacer">
+            <div class="col-4">Password</div>
+            <div class="col-4"><input class="form-control" formControlName="Password" type="password" /></div>
+        </div>
+
+        <div class="row spacer">
+            <div class="col-4">Location</div>
+            <div class="col-4"><input class="form-control" formControlName="Location" type="text" /></div>
+        </div>
+
+
+        <div class="row spacer">
+            <div class="col-12">
+                <button type="submit" class="btn btn-block btn-outline-warning"
+                    [disabled]="profileForm.invalid">Sign Up</button>
+            </div>
+        </div>
+
+    </form>
+
+</div>

@@ -1,0 +1,51 @@
+<form [formGroup]="cartData" (ngSubmit)="openCart()">
+    <div class="modal-header">
+        <h4 class="modal-title pull-left">{{name}}</h4>
+        <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="bsModalRef.hide()">
+            <span aria-hidden="true" class="visually-hidden">&times;</span>
+        </button>
+    </div>
+
+    <div class="modal-body">
+        <div class="row">
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" [src]="imgSrc" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">{{desc}}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-8 spacer">
+
+                <span>Customize your delicious Pizza</span>
+
+                <ul>
+                    <li *ngFor="let topp of toppings;let i = index">
+                        <mat-checkbox (change)="calculateToppingPrice($event,topp.price)">{{topp.name}}
+                            ({{topp.price}}Rs)</mat-checkbox>
+                    </li>
+                </ul>
+                <div class="radiobtn">
+                    <label id="example-radio-group-label">Pick your Pizza Size</label>
+                    <mat-radio-group aria-labelledby="example-radio-group-label" (change)="calculatePrice($event)"
+                        name="pizzagrp" class="example-radio-group">
+                        <mat-radio-button class="example-radio-button" *ngFor="let price of pizzaPrice"
+                            [value]="price.price">
+                            {{price.size}} ({{price.price}}Rs)
+                        </mat-radio-button>
+                    </mat-radio-group>
+                </div>
+                <div class="pizzaTotalPrice">
+                    <span>Total Pizza Price :
+                        {{totalPizzaPrice}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" (click)="bsModalRef.hide()">{{closeBtnName}}</button>
+        <input type="submit" class="btn btn-outline-warning" value="Add to Cart">
+    </div>
+</form>

@@ -1,0 +1,171 @@
+.navbar {
+    width: 100%;
+    background-color: white;
+    color: rgb(232, 225, 108) !important;
+    height: 70px;
+    font-size: 14px;
+    font-family: roboto;
+    padding-left: 250px;
+    padding-right: 250px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+   // position: fixed;
+    z-index: 3;
+}
+
+.head {
+    font-size: 23px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.point{
+    cursor: pointer;
+}
+.button {
+    color: rgb(232, 225, 108) !important;
+    letter-spacing: 2px;
+    height: auto;
+    padding: 5px 15px;
+    border: 2px solid #6495ed;
+    border-radius: 150px;
+    cursor: pointer;
+    width: max-content;
+    box-shadow: -2px -2px 15px #ffffff, 4px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.rightalign {
+    display: contents;
+}
+
+.button1 {
+    color: black;
+    letter-spacing: 2px;
+    height: auto;
+    width: 150px;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 150px;
+    cursor: pointer;
+    background-color: #fedc56 !important;
+    border: 1px solid #fedc56 !important;
+    background: #fedc56;
+    box-shadow: -2px -2px 10px #ffffff, 4px 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 68px;
+}
+
+.navbar-collapse {
+    margin-left: 120px;
+}
+
+.nav-item {
+    margin-left: 35px;
+    letter-spacing: 0.03em;
+}
+
+.nav-link {
+    color: rgb(232, 225, 108) !important;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    font-weight: 50;
+    font-family: "Open Sans", HelveticaNeue-Light, " Helvetica Neue Light", " Helvetica Neue", Helvetica, Arial, " Lucida Grande", sans-serif;
+
+}
+
+.btn-group {
+    display: none;
+}
+
+
+@media screen and (max-width: 480px) {
+    .btn-group {
+        display: contents;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+
+    .btn:focus {
+        box-shadow: 0 0 0 0em white;
+    }
+
+    .navbar {
+        height: 75px;
+        width: 440px;
+        background-color: white;
+        border-bottom: 5px solid #fedc56;
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .navbar img {
+        margin-left: -200px;
+    }
+
+    .head {
+        margin-left: -30px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .navbar .button {
+        margin-left: 150px;
+        margin-top: -60px;
+        text-decoration: none;
+    }
+
+    .navbar-collapse {
+        margin-top: 6px;
+        margin-left: 8px;
+        padding: 40px 0px;
+        background-color: #fedc56;
+        border: 2px solid #fedc56;
+        border-radius: 0px 0px 40px 40px;
+        width: 440px !important;
+        transition: 2s;
+    }
+
+    .nav-item {
+        width: 500px !important;
+    }
+
+    .nav-link {
+        text-align: center;
+        border: 2px solid #fedc56;
+        background-color: white;
+        width: 280px;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        margin-left: 50px;
+        margin-top: 20px;
+        border-radius: 90px;
+    }
+
+    .button {
+        width: 150px;
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-left: 30px;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        text-align: center;
+        background: #fdf9e7;
+        background: #6495ed;
+        box-shadow: -4px -4px 10px rgba(255, 255, 255, 0.5),
+            4px 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .button1 {
+        width: 160px;
+        margin: 20px 110px;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        border: 2px solid #5585db !important;
+        box-sizing: border-box;
+        border-radius: 90px;
+        background-color: transparent;
+        box-shadow: 0px 0px 0px transparent;
+    }
+}

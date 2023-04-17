@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">Order Placed Successfully</div>
+    </div>
+    <div class="row">
+        <div class="col-12">Order Details</div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td>Order #</td>
+                        <td>Pizzas</td>
+                        <td>Quantity</td>
+                        <td>Total Price Paid</td>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td>{{orderDetails.orderNumber}}</td>
+                        <td>{{orderDetails.pizzaName}}</td>
+                        <td>{{orderDetails.quantity}}</td>
+                        <td>{{orderDetails.pizzaPrice}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
